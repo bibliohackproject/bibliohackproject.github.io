@@ -8,8 +8,8 @@
 <h1
   class="hero-gradient flex items-center gap-3 text-4xl px-4 py-12 text-slate-100"
 >
-  <Logo class="h-10 w-10" />
-  <span class="font-extralight"
+  <Logo class="h-10 w-10 drop-shadow-lg" />
+  <span class="font-extralight drop-shadow-lg"
     >biblio<span class="font-semibold">hack</span> project</span
   >
 </h1>
