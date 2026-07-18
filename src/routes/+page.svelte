@@ -98,13 +98,13 @@
               ><BrandIcon icon={siGithub} class="size-4" />GitHub</a
             >
 
-            <a
+            <!-- <a
               href="//note.com/bibliohack"
               target="_blank"
               rel="noopener noreferrer"
               class="inline-flex items-center gap-1"
               ><BrandIcon icon={siNote} class="size-4" />Note</a
-            >
+            > -->
           </div>
         </div>
       </div>
