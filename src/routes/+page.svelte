@@ -19,7 +19,7 @@
     <h2 class="text-2xl md:w-40 md:shrink-0">/about</h2>
 
     <div class="max-w-3xl">
-      <div class="text-lg" style="font-feature-settings: 'palt' 1;">
+      <div class="text-lg leading-8" style="font-feature-settings: 'palt' 1;">
         <span class="font-zalando-sans-expanded">bibliohack project</span
         >［ビブリオハック・プロジェクト］は、
         テクノロジーを活用し、本の情報を共有し、発見するさまざまなサービスを開発・提供することを目指すプロジェクトです。
@@ -72,32 +72,53 @@
         >参加メンバー一覧です。
       </div>
 
-      <p class="mt-4">
-        SUGIMOTO Tatsuo (Founder)<br />
-        <a
-          href="//bsky.app/profile/sugimototatsuo.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="inline-flex items-center gap-1"
-          ><BrandIcon icon={siBluesky} class="size-4" />Bluesky</a
-        >
-        |
-        <a
-          href="//github.com/sugi2000"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="inline-flex items-center gap-1"
-          ><BrandIcon icon={siGithub} class="size-4" />GitHub</a
-        >
-        |
-        <a
-          href="//note.com/bibliohack"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="inline-flex items-center gap-1"
-          ><BrandIcon icon={siNote} class="size-4" />Note</a
-        >
-      </p>
+      <div class="mt-4 font-semibold">Founder</div>
+      <div class="mt-2 flex items-center gap-2">
+        <img
+          src="https://avatars.githubusercontent.com/u/118193"
+          alt="SUGIMOTO Tatsuo"
+          class="size-12 rounded-full inline grayscale"
+        />
+        <div>
+          SUGIMOTO Tatsuo<br />
+          <div class="flex gap-4 mt-1">
+            <a
+              href="//bsky.app/profile/sugimototatsuo.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-1"
+              ><BrandIcon icon={siBluesky} class="size-4" />Bluesky</a
+            >
+
+            <a
+              href="//github.com/sugi2000"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-1"
+              ><BrandIcon icon={siGithub} class="size-4" />GitHub</a
+            >
+
+            <a
+              href="//note.com/bibliohack"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-1"
+              ><BrandIcon icon={siNote} class="size-4" />Note</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="my-8 md:flex md:gap-8">
+    <h2 class="text-2xl md:w-40 md:shrink-0">/funds</h2>
+    <div>
+      <span class="font-zalando-sans-expanded">bibliohack project</span>は以下の支援を受けています。
+      <ul class="mt-4 list-disc list-inside">
+        <li>TMU GAPファンド 2025 / 2026</li>
+        <li>科研費 26K03601 /  20K12535</li>
+      </ul>
     </div>
   </section>
 </div>
