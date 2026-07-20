@@ -112,7 +112,7 @@
   </section>
 
   <section class="my-8 md:flex md:gap-8">
-    <h2 class="text-2xl md:w-40 md:shrink-0">/funds</h2>
+    <h2 class="text-2xl md:w-40 md:shrink-0">/funding</h2>
     <div>
       <span class="font-zalando-sans-expanded">bibliohack project</span>は以下の支援を受けています。
       <ul class="mt-4 list-disc list-inside">
