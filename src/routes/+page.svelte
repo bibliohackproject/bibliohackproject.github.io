@@ -2,7 +2,8 @@
   import BrandIcon from "$lib/components/BrandIcon.svelte";
   import Logo from "$lib/components/Logo.svelte";
   import ProjectLink from "$lib/components/ProjectLink.svelte";
-  import { siGithub, siBluesky, siNote } from "simple-icons";
+  import { siGithub, siBluesky, siNote, siX } from "simple-icons";
+  import { Globe } from "@lucide/svelte";
 </script>
 
 <h1
@@ -105,6 +106,43 @@
               class="inline-flex items-center gap-1"
               ><BrandIcon icon={siNote} class="size-4" />Note</a
             > -->
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-4 font-semibold">Developer</div>
+      <div class="mt-2 flex items-center gap-2">
+        <img
+          src="https://avatars.githubusercontent.com/u/75594442"
+          alt="SAKAMURA Kusuke"
+          class="size-12 rounded-full inline grayscale"
+        />
+        <div>
+          SAKAMURA Kusuke<br />
+          <div class="flex gap-4 mt-1">
+            <a
+              href="https://sakamura.dev/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-1"
+              ><Globe class="size-4" />Website</a
+            >
+
+            <a
+              href="//x.com/menma275"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-1"
+              ><BrandIcon icon={siX} class="size-4" />X</a
+            >
+
+            <a
+              href="//github.com/menma275"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-1"
+              ><BrandIcon icon={siGithub} class="size-4" />GitHub</a
+            >
           </div>
         </div>
       </div>
