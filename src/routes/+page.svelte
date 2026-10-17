@@ -2,7 +2,7 @@
   import BrandIcon from "$lib/components/BrandIcon.svelte";
   import Logo from "$lib/components/Logo.svelte";
   import ProjectLink from "$lib/components/ProjectLink.svelte";
-  import { siGithub, siBluesky, siNote, siX } from "simple-icons";
+  import { siGithub, siBluesky, siNote, siX, siYoutube } from "simple-icons";
   import { Globe } from "@lucide/svelte";
 </script>
 
@@ -74,7 +74,7 @@
       </div>
 
       <div class="mt-4 font-semibold">Founder</div>
-      <div class="mt-2 flex items-center gap-2">
+      <div class="mt-2 mb-4 flex items-center gap-2">
         <img
           src="https://avatars.githubusercontent.com/u/118193"
           alt="SUGIMOTO Tatsuo"
@@ -111,7 +111,7 @@
       </div>
 
       <div class="mt-4 font-semibold">Developer</div>
-      <div class="mt-2 flex items-center gap-2">
+      <div class="mt-2 mb-4 flex items-center gap-2">
         <img
           src="https://avatars.githubusercontent.com/u/75594442"
           alt="SAKAMURA Kusuke"
@@ -142,6 +142,64 @@
               rel="noopener noreferrer"
               class="inline-flex items-center gap-1"
               ><BrandIcon icon={siGithub} class="size-4" />GitHub</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-4 font-semibold">Supporter</div>
+
+      <div class="mt-2 mb-4 flex items-center gap-2">
+        <img
+          src="https://cdn.bsky.app/img/avatar/plain/did:plc:xydj7tbnpxjabv2xfvmjnkiq/bafkreic3dxm6dplffbjsgupscmpuvhrmprfny57v6ruhmbdvvlplfbrv54"
+          alt="YAMAMOTO Takamitsu"
+          class="size-12 rounded-full inline grayscale"
+        />
+        <div>
+          YAMAMOTO Takamitsu<br />
+          <div class="flex gap-4 mt-1">
+            <a
+              href="https://bsky.app/profile/yakumoizuru.bsky.social"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-1"
+              ><BrandIcon icon={siBluesky} class="size-4" />Bluesky</a
+            >
+
+            <a
+              href="https://www.youtube.com/channel/UCPPXqjS3APTXTNlBNS5FjIQ"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-1"
+              ><BrandIcon icon={siYoutube} class="size-4" />YouTube</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-2 mb-4 flex items-center gap-2">
+        <img
+          src="https://cdn.bsky.app/img/avatar/plain/did:plc:h2t5sqaeqxjcm3jgpy44uo5d/bafkreicwxev6o6o3miyirfaycgygwu7pt6s2esrsorj7kpymgztmy5phhe"
+          alt="YOSHIKAWA Hiromitsu"
+          class="size-12 rounded-full inline grayscale"
+        />
+        <div>
+          YOSHIKAWA Hiromitsu<br />
+          <div class="flex gap-4 mt-1">
+            <a
+              href="https://bsky.app/profile/clnmn.bsky.social"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-1"
+              ><BrandIcon icon={siBluesky} class="size-4" />Bluesky</a
+            >
+
+            <a
+              href="https://www.youtube.com/channel/UCPPXqjS3APTXTNlBNS5FjIQ"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-1"
+              ><BrandIcon icon={siYoutube} class="size-4" />YouTube</a
             >
           </div>
         </div>
