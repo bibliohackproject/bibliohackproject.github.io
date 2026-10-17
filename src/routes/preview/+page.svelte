@@ -78,7 +78,7 @@
       </div>
 
       <div class="mt-4 font-semibold">Founder</div>
-      <div class="mt-2 flex items-center gap-2">
+      <div class="mt-2 mb-4 flex items-center gap-2">
         <img
           src="https://avatars.githubusercontent.com/u/118193"
           alt="SUGIMOTO Tatsuo"
@@ -115,7 +115,7 @@
       </div>
 
       <div class="mt-4 font-semibold">Developer</div>
-      <div class="mt-2 flex items-center gap-2">
+      <div class="mt-2 mb-4 flex items-center gap-2">
         <img
           src="https://avatars.githubusercontent.com/u/75594442"
           alt="SAKAMURA Kusuke"
@@ -153,7 +153,7 @@
 
       <div class="mt-4 font-semibold">Supporter</div>
 
-      <div class="mt-2 flex items-center gap-2">
+      <div class="mt-2 mb-4 flex items-center gap-2">
         <img
           src="https://cdn.bsky.app/img/avatar/plain/did:plc:xydj7tbnpxjabv2xfvmjnkiq/bafkreic3dxm6dplffbjsgupscmpuvhrmprfny57v6ruhmbdvvlplfbrv54"
           alt="YAMAMOTO Takamitsu"
@@ -181,7 +181,7 @@
         </div>
       </div>
 
-      <div class="mt-2 flex items-center gap-2">
+      <div class="mt-2 mb-4 flex items-center gap-2">
         <img
           src="https://cdn.bsky.app/img/avatar/plain/did:plc:h2t5sqaeqxjcm3jgpy44uo5d/bafkreicwxev6o6o3miyirfaycgygwu7pt6s2esrsorj7kpymgztmy5phhe"
           alt="YOSHIKAWA Hiromitsu"
